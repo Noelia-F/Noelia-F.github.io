@@ -1,0 +1,21 @@
+.header{
+	background-color: #596668;
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.header__button{
+	margin: 10px;
+	color: #ffffff;
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}

@@ -2,5 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 @import 'core/variables';
+@import 'core/mixin';
 
 @import 'layout/wrapper';
+@import 'layout/header';
+
+@import 'components/menu';
+@import 'components/typography';
+@import 'components/hero';
+@import 'components/titles';
