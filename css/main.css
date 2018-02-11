@@ -122,4 +122,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+.title--section {
+  font-size: 20px;
+  color: #403f48;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=main.css.map */
