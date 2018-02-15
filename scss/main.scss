@@ -6,6 +6,7 @@
 
 @import 'layout/wrapper';
 @import 'layout/header';
+@import 'layout/footer';
 
 @import 'components/menu';
 @import 'components/typography';
@@ -13,5 +14,8 @@
 @import 'components/titles';
 @import 'components/aboutme';
 @import 'components/socialmedia';
+@import 'components/projects';
+@import 'components/skills';
+@import 'components/career';
 
 @import 'pages/index';

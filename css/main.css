@@ -36,6 +36,32 @@
   box-shadow: none;
 }
 
+.footer {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #403f48;
+  padding: 20px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.link--footer {
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.link--footer:hover {
+  font-weight: bold;
+}
+
 .menu {
   display: none;
   background-color: #e3d9ca;
@@ -192,6 +218,18 @@
 
 .github {
   background-image: url(/images/github.svg);
+}
+
+.projects {
+  background-color: #e3d9ca;
+}
+
+.skills {
+  background-color: #ffffff;
+}
+
+.career {
+  background-color: #e3d9ca;
 }
 
 * {
