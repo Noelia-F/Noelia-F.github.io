@@ -1,7 +1,9 @@
 .footer{
 	width: 100%;
-	height: 100px;
+	min-height: 130px;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #403f48;
 	padding: $paddingWrapper;
 	}
@@ -13,8 +15,18 @@
 	text-decoration: underline;
 	color: #ffffff;
 	font-size: 16px;
+	line-height: 25px;
 	cursor: pointer;
 }
 .link--footer:hover{
 	font-weight: bold;
+}
+
+.arrow-up{
+	width: 50px;
+	height: 50px;
+	background-image: url(/images/arrow-up-white.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
