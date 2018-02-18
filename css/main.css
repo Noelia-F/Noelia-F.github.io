@@ -78,14 +78,35 @@
   background-size: cover;
 }
 
-.menu {
-  display: none;
-  background-color: #e3d9ca;
-  list-style: none;
-  padding: 0;
-  height: 100vh;
+.header__navigation {
   position: fixed;
   top: 80px;
+  left: 0;
+  z-index: 1;
+  background-color: transparent;
+  -webkit-transform: translateX(-120%);
+  transform: translateX(-120%);
+  -webkit-transition: background ease .7s .5s, -webkit-transform ease .7s;
+  transition: background ease .7s .5s, -webkit-transform ease .7s;
+  transition: transform ease .7s, background ease .7s .5s;
+  transition: transform ease .7s, background ease .7s .5s, -webkit-transform ease .7s;
+}
+
+.menu-visible .header__navigation {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.menu {
+  background-color: #ffffff;
+  list-style: none;
+  max-width: 200px;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  top: 0;
   left: 0;
 }
 
