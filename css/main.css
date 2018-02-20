@@ -156,12 +156,12 @@
 .arrow-down {
   width: 50px;
   height: 50px;
-  background-image: url(/images/arrow-down.svg);
+  background-image: url("/images/arrow-down.svg");
   background-repeat: none;
   background-size: contain;
   background-position: center;
-  -webkit-transform: translateY(200px);
-  transform: translateY(200px);
+  -webkit-transform: translateY(150px);
+  transform: translateY(150px);
 }
 
 .arrow-down:hover {
@@ -264,19 +264,37 @@
 }
 
 .linkedin {
-  background-image: url(/images/linkedin-signo.svg);
+  background-image: url("/images/linkedin-signo.svg");
 }
 
 .twitter {
-  background-image: url(/images/logo-de-twitter.svg);
+  background-image: url("/images/logo-de-twitter.svg");
 }
 
 .github {
-  background-image: url(/images/github.svg);
+  background-image: url("/images/github.svg");
 }
 
 .projects {
   background-color: #e3d9ca;
+}
+
+.info {
+  width: 50px;
+  height: 0px;
+  padding-top: 50px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.info--view {
+  background-image: url("/images/view.svg");
+}
+
+.info--read {
+  background-image: url("/images/read.svg");
 }
 
 .skills {
@@ -291,7 +309,7 @@
   margin: auto;
   width: 50px;
   height: 50px;
-  background-image: url(/images/line-dots.svg);
+  background-image: url("/images/line-dots.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -324,43 +342,43 @@
 }
 
 .icon--js {
-  background-image: url(/images/js.png);
+  background-image: url("/images/js.png");
 }
 
 .icon--html {
-  background-image: url(/images/html-5.svg);
+  background-image: url("/images/html-5.svg");
 }
 
 .icon--css {
-  background-image: url(/images/css-3.svg);
+  background-image: url("/images/css-3.svg");
 }
 
 .icon--sass {
-  background-image: url(/images/sass.png);
+  background-image: url("/images/sass.png");
 }
 
 .icon--bootstrap {
-  background-image: url(/images/bootstrap.png);
+  background-image: url("/images/bootstrap.png");
 }
 
 .icon--react {
-  background-image: url(/images/react.png);
+  background-image: url("/images/react.png");
 }
 
 .icon--git {
-  background-image: url(/images/git.png);
+  background-image: url("/images/git.png");
 }
 
 .icon--zeplin {
-  background-image: url(/images/zeplin.png);
+  background-image: url("/images/zeplin.png");
 }
 
 .icon--photoshop {
-  background-image: url(/images/photoshop.png);
+  background-image: url("/images/photoshop.png");
 }
 
 .icon--illustrator {
-  background-image: url(/images/illustrator.png);
+  background-image: url("/images/illustrator.png");
 }
 
 * {

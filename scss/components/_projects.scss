@@ -1,3 +1,18 @@
 .projects{
 	background-color: #e3d9ca;
 	}
+.info{
+	width: 50px;
+	height: 0px;
+	padding-top: 50px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.info--view{
+	background-image: url('/images/view.svg');
+}
+.info--read{
+	background-image: url('/images/read.svg');
+}
