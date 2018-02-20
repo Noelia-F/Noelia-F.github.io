@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");/*Wrapper*/.wrapper {
   padding: 20px;
   padding-top: 90px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header {
-  background-color: #596668;
+  background-color: #596c68;
   position: fixed;
   width: 100%;
   top: 0;
@@ -113,8 +113,8 @@
 .item {
   display: block;
   padding: 15px 20px;
-  border-bottom: 1px solid #596668;
-  color: #596668;
+  border-bottom: 1px solid #596c68;
+  color: #596c68;
 }
 
 .item:hover {
@@ -173,6 +173,7 @@
   font-family: 'Oswald';
   color: #ffffff;
   text-align: center;
+  line-height: 30px;
 }
 
 .title-box--principal {
@@ -192,6 +193,23 @@
   text-decoration: underline;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.subtitle {
+  font-family: 'Oswald';
+  text-align: center;
+  line-height: 30px;
+  color: #403f48;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.date {
+  color: #403f48;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .paragraph {
@@ -267,6 +285,16 @@
 
 .career {
   background-color: #e3d9ca;
+}
+
+.line {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  background-image: url(/images/line-dots.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .icon-section {
