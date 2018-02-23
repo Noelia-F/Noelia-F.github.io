@@ -292,6 +292,20 @@
   display: none;
 }
 
+.project-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.project-image--kairos {
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin: auto;
+}
+
 .project__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,12 +330,21 @@
   background-position: center;
 }
 
+.info--add {
+  background-color: inherit;
+  border: none;
+}
+
 .info--view {
   background-image: url("/images/view.svg");
 }
 
 .info--plus {
   background-image: url("/images/plus2.svg");
+}
+
+.info--less {
+  background-image: url("/images/minus2.svg");
 }
 
 .skills {
