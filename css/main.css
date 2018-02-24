@@ -436,6 +436,13 @@
   box-sizing: border-box;
 }
 
+@media all and (min-width: 400px) {
+  .social {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
+
 @media all and (min-width: 500px) {
   .title-box--principal {
     font-size: 50px;
@@ -444,6 +451,13 @@
 
   .title-box--subtitle {
     font-size: 30px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .social {
+    width: 60%;
+    margin: auto;
   }
 }
 

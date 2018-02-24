@@ -32,3 +32,17 @@
 .github{
 	background-image: url("/images/github.svg");
 }
+
+
+@media all and (min-width: 400px) {
+	.social{
+		justify-content: space-around;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.social{
+		width: 60%;
+		margin: auto;
+	}
+}
