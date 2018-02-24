@@ -63,6 +63,7 @@
   font-size: 16px;
   line-height: 25px;
   cursor: pointer;
+  padding-right: 20px;
 }
 
 .link--footer:hover {
@@ -466,6 +467,19 @@
 }
 
 @media all and (min-width: 500px) {
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .title-box--principal {
     font-size: 50px;
     line-height: 70px;
