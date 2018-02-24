@@ -115,12 +115,14 @@
   padding: 15px 20px;
   border-bottom: 1px solid #596c68;
   color: #596c68;
+  text-decoration: none;
 }
 
 .item:hover {
   background-color: #95a792;
   color: #ffffff;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .body {
@@ -223,9 +225,7 @@
   font-weight: bold;
   font-size: 18px;
   color: #403f48;
-}
-
-.about-me {
+}/*mediaqueries*/.about-me {
   background-color: #ffffff;
 }
 
@@ -434,6 +434,17 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+@media all and (min-width: 500px) {
+  .title-box--principal {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .title-box--subtitle {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -6,7 +6,7 @@
 	background-color: rgba(0, 0, 0, 0);
 	transform: translateX(-120%);
 	transition: transform ease .7s, background ease .7s .5s;
-	.menu-visible & {
+	.menu-visible &{
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.5);
 		transform: translateX(0%);
@@ -28,10 +28,12 @@
 	padding: 15px 20px;
 	border-bottom: 1px solid #596c68;
 	color: #596c68;
+	text-decoration: none;
 }
 
 .item:hover{
 	background-color: #95a792;
 	color: #ffffff;
 	font-weight: bold;
+	text-decoration: none;
 }
