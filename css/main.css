@@ -485,6 +485,27 @@
   .project__box {
     width: 30%;
   }
+
+  .career__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .career__detail {
+    width: 40%;
+  }
+
+  .line {
+    display: none;
+  }
 }
 
 @media all and (min-width: 980px) {
