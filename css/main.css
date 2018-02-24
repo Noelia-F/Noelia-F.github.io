@@ -441,6 +441,12 @@
   }
 }
 
+@media all and (min-width: 450px) {
+  .icon-skill {
+    width: 30%;
+  }
+}
+
 @media all and (min-width: 480px) {
   .projects-container {
     display: -webkit-box;
@@ -478,6 +484,17 @@
 
   .project__box {
     width: 30%;
+  }
+}
+
+@media all and (min-width: 980px) {
+  .icon-skill {
+    width: 20%;
+  }
+
+  .icon-section {
+    -webkit-transform: translateY(55%);
+    transform: translateY(55%);
   }
 }
 

@@ -56,3 +56,18 @@
 .icon--illustrator {
 	background-image: url("/images/illustrator.png");
 }
+
+@media all and (min-width: 450px) {
+	.icon-skill{
+		width: 30%;
+	}
+}
+
+@media all and (min-width: 980px) {
+	.icon-skill{
+		width: 20%;
+	}
+	.icon-section{
+		transform: translateY(55%);
+	}
+}
